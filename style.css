@@ -1,0 +1,137 @@
+*{
+    font-family: sans-serif;
+    
+}
+header{
+    font-weight: 700;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+} 
+.nav_div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.nav_div1>img{
+    height: 30px;
+}
+.nav_div2>ul >li{
+    font-size: 12px;
+}
+.g{
+    padding-left: 10px;
+    color: #FF42A5;
+}
+.nav_div2>ul{
+    display: flex;
+    list-style: none;
+}
+.nav_div2>ul >li{
+    padding: 15px;
+}
+.section_1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.s1d1{
+    background-image: url(images/Group\ 14.png);
+    height: 475px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: inherit;
+}
+.sub_s1{
+    margin-top: 115px;
+}
+.s1d1 h1{
+    font-size: 45px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    /* background-clip: text; */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.sub_s1 button{
+    background-color: #F948B2;
+    color: white;
+    border: 0;
+    padding: 10px 15px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.ndbttn{
+    background-color: #4EC5F7 !important;
+}
+.s1d2{
+    width: 50%;
+}
+.s1d2 img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------For Mobile View---------------------- */
+
+
+@media screen and (max-width:576px) {
+
+    nav{
+        flex-direction: column;
+        height: 245px;
+    } 
+    .nav_div2>ul{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .section_1{
+        flex-direction: column-reverse;
+    }
+}
+
+
+
+
+
+
+/* --------For Tablet View---------------------- */
+
+
+@media screen and (min-width:576) and (max-width:768px) {
+
+    nav{
+        flex-direction: column;
+        height: 245px;
+    } 
+    .nav_div2>ul{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .section_1{
+        flex-direction: column-reverse;
+    }
+}
