@@ -77,10 +77,94 @@ nav{
 .s1d2 img{
     width: 100%;
 }
+.sec_2_div1 > .img2{
+    margin: 150px 80px;
+    height: 35rem;
+}
+.sec_2_div1 > .imgs{
+    margin-left: -273px;
+
+}
+.section_2{
+    /* display: flex; */
+}
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 640px;
+    background-color: black;
+}
+.ft_lgo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+.ft_lgo_g{
+    color: white;
+    font-size: 30px;
+}
+.ft_lgo_g>span{
+    font-size: 40px;
+    color: rgb(242, 73, 101);
+}
+.ft_txt1{
+    display: grid;
+    grid-template-columns: repeat(6,95px);
+    color: white;
+    font-weight: 500;
+    column-gap: 2rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 30px 0;
+}
+.ft_lgo_icn{
+    display: grid;
+    grid-template-columns: repeat(6,50px);
+    color: white;
+    font-size: 26px;
+    font-weight: 500;
+    column-gap: 2rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 50px 0;
+}
+.ft_txt2{
+    display: grid;
+    grid-template-columns: repeat(4,185px);
+    color: white;
+    font-weight: 500;
+    column-gap: 1rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 40px 0;
+    opacity: .5;
+}
+.ft_div_s{
+    color: white;
+    text-align: center;
+    opacity: .5;
+}
 
 
 
@@ -110,6 +194,33 @@ nav{
     .section_1{
         flex-direction: column-reverse;
     }
+
+
+
+
+
+
+
+
+
+
+    /* Footer Style */
+
+    .ft_txt1{
+        grid-template-columns: repeat(3,90px);
+        column-gap: 2rem;
+    }
+    .ft_lgo_icn{
+        display: grid;
+        grid-template-columns: repeat(3,50px);
+        color: white;
+        font-size: 26px;
+        row-gap: 20px;
+    }
+    .ft_txt2{
+        grid-template-columns: repeat(2,180px);
+        column-gap: 1rem;
+    }
 }
 
 
@@ -133,5 +244,31 @@ nav{
     }
     .section_1{
         flex-direction: column-reverse;
+    }
+
+
+
+
+
+
+
+
+
+     /* Footer Style */
+
+     .ft_txt1{
+        grid-template-columns: repeat(3,90px);
+        column-gap: 2rem;
+    }
+    .ft_lgo_icn{
+        display: grid;
+        grid-template-columns: repeat(3,50px);
+        color: white;
+        font-size: 26px;
+        row-gap: 20px;
+    }
+    .ft_txt2{
+        grid-template-columns: repeat(2,180px);
+        column-gap: 1rem;
     }
 }
