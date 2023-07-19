@@ -213,8 +213,16 @@ footer{
     text-align: center;
     opacity: .5;
 }
+.carddd >img{
+    height: 20rem;
+    margin: 0 10px;
+    gap: 30px;
+}
 
+.cards{
+    text-align: center;
 
+}
 
 
 
