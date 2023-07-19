@@ -130,8 +130,8 @@ nav{
     cursor: pointer;
 }
 .sect_4_img:hover{
-    border: 2px solid var(--primClr);
-    color: var(--primClr);
+    border: 2px solid #F948B2;
+    color: #F948B2;
 }
 .sect_4_img h4{
     margin-left: 15px;
