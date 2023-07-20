@@ -213,16 +213,82 @@ footer{
     text-align: center;
     opacity: .5;
 }
-.carddd >img{
-    height: 20rem;
-    margin: 0 10px;
-    gap: 30px;
-}
 
-.cards{
+/* ---Start section_3/ */
+.section02{
     text-align: center;
+    height: 580px;
+    padding-top: 75px;
+    padding-bottom: 75px;
 
 }
+.section02text{
+    padding-bottom: 50px;
+
+}
+.section02img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+
+}
+.imgcontainer{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 450px;
+
+}
+.card{
+    width: 280px;
+}
+.cardhover{
+    position: relative;
+    height: 328px;
+
+}
+.cardhover >img {
+    height: auto;
+    width: 280px;
+    
+}
+.cardhover:hover > .cardicon{
+    visibility: visible;
+    border: 4px solid #F948B2;
+    color: #F948B2;
+    
+}
+.cardicon {
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-top: 120px;
+    color: var #F948B2;
+    border-radius: 10px;
+    visibility: hidden;
+}
+.cardicon > i{
+    font-size: 1.5rem;
+}
+.wn{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.fv{font-weight: 900;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.section02text >p{
+    color: rgb(146, 146, 146);
+    font-size: 11px;
+}
+/* ---End section_3/ */
 
 
 
@@ -275,7 +341,32 @@ footer{
             font-size: 8px;
         }
 
-
+        /* ---Start section_3/ */
+        .imgcontainer{
+            align-items: center;
+            flex-direction: column;
+            gap: 50px;
+    
+        }
+        .section02{
+            height: 1840px;
+    
+        }
+        .cardhover >img {
+        height: auto;
+        width: 235px;
+    }
+    .cardhover {
+        margin-left: 22px;
+        width: 236px;
+        height: 275px;
+    }
+    .section02 {
+        height: 1710px;
+        padding-bottom: 0px;
+    
+    }
+        /* ---End section_3/ */
 
 
 
